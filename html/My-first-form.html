@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My First HTML Form</title>
+	</head>
+	<body>
+		<form method="POST" action="http://requestb.in/1lw71oq1">
+			<p>
+			<h1>User Login</h1>
+				<label for="username">Username</label>
+				<input id="username" name="username" type="text" placeholder="Enter Username Here">
+			</p>
+			<p>
+				<label for="password">Password</label>
+				<input id="password" name="password" type="password" placeholder="Enter Password Here">
+			</p>
+			<p>
+				<input type="submit" name="Hello" value="login">
+			</p>
+		</form>
+			<p>
+		<form method="POST" action="http://requestb.in/1lw71oq1">
+			<p>
+			<h1>Compose an Email</h1>
+				<label for="to">To</label>
+				<input id="to" name="to" type="text" placeholder="To">
+			</p>
+			<p>
+				<label for="from">From</label>
+				<input id="from" name="from" type="text" placeholder="From">
+			</p>
+			<p>
+				<label for="subject">Subject</label>
+				<input id="subject" name="subject" placeholder="Subject">
+			</p>
+			<p>
+				<textarea id="email_body" name="email_body" rows="5" cols="50" >Body</textarea>
+			</p>
+			<input type="checkbox" id="saved_copy" name="saved_copy" value="yes" checked>
+			<label for="saved_copy">Would you like a copy saved to your Sent folder?</label>
+			<p>
+				<button type="submit">Send</button>
+			</p>
+		</form>
+		<p>
+		<form method="POST" action="http://requestb.in/1lw71oq1">
+			<p>
+			<h1>Multiple Choice Test</h1>
+			<p>How many states are in the United States?</p>
+				<label>
+					<input type="radio" name="q1" value="30" checked>
+					30
+				</label>
+				<label>
+					<input type="radio" name="q1" value="45">
+					45
+				</label>
+				<label>
+					<input type="radio" name="q1" value="50">
+					50
+				</label>
+				<label>
+					<input type="radio" name="q1" value="543">
+					543
+				</label>
+				
+			<p>What year is it?</p>
+				<label>
+					<input type="radio" name="q2" value="2015" checked>
+					2015
+				</label>
+				<label>
+					<input type="radio" name="q2" value="2016">
+					2016
+				</label>
+				<label> 
+					<input type="radio" name="q2" value="12748392">
+					12748392
+				</label>
+				<label>
+					<input type="radio" name="q2" value="2017">
+					2017
+				</label>
+				</p>
+				<p>
+				<button type="submit">Submit</button>
+				</p>
+			<p>Which artists do you like?</p>
+				<label>
+					<input type="checkbox" id="os1" name="os[]" value="trading_yesterday">Trading Yesterday
+				</label>
+				<label>
+					<input type="checkbox" id="os2" name="os[]" value="breaking_benjamin">
+					Breaking Benjamin
+				</label>
+				<label>
+					<input type="checkbox" id="os3" name="os[]" value="relient_k">
+					Relient K
+				</label>
+				<label>
+					<input type="checkbox" id="os4" name="os[]" value="taylor_swiftwift">
+					Taylor Swift
+				</label>
+			<p>
+				<button type="submit">Submit</button>
+			</p>
+			<p>
+			<label for="os">Who are your favorite Avengers?</label>
+			<select id="avengers" name="avengers" multiple>
+				<option value="captain_america">Captain America</option>
+				<option value="iron_man">Iron Man</option>
+				<option value="hulk">Hulk</option>
+				<option value="black_widow">Black Widow</option>
+				<option value="hawkeye">Hawkeye</option>
+				<option value="thor">Thor</option>
+				<option value="scarlet_witch">Scarlet Witch</option>
+				<option value="quicksilver">Quicksilver</option>
+				<option value="iron_patriot">Iron Patriot</option>
+				<option value="falcon">Falcon</option>
+				<option value="vision">Vision</option>
+				<option value="spiderman">Spiderman</option>
+				<option value="ant_man">Ant Man</option>
+			</select>
+			<button type="submit">Submit</button>
+			</p>
+		</form>
+		<form method="POST" action="http://requestb.in/1lw71oq1">
+			<label for="transmission">Select your transmission type:</label>
+			<select id="transmission" name="transmission">
+				<option value="1">Automatic</option>
+				<option selected value="2">Manual</option>
+			</select>
+
+			<button type="submit">Submit</button>
+
+			<p>
+				<label for="os">Which artists do you like?</label>
+				<select id="os" name="os[]" multiple>
+					<option value="trading_yesterday">Trading Yesterday
+					</option>
+					<option value="breaking_benjamin">
+					Breaking Benjamin
+					</option>
+					<option value="relient_k">
+					Relient K
+					</option>
+					<option value="taylor_swift">
+					Taylor Swift
+					</option>
+				</select>
+				<button type="submit">Submit</button>
+		</form>
+		<form method="POST" action="http://requestb.in/1lw71oq1">
+			<p>
+			<h1>Select Testing</h1>
+			</p>
+				<label for="os"> Do you like Captain America?</label>
+				<select id="captain_america" name="captain_america">
+					<option value="1" selected>Yes</option>
+					<option value="0">No, I'm not patriotic</option>
+				</select>
+				<button type="submit">Submit</button>
+		</form>
+	</body>
+</html>
